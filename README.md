@@ -1,4 +1,4 @@
-# **Projectvoorstel**
+# Projectvoorstel
 
 ## Randwijck: Geven en Krijgen
 
