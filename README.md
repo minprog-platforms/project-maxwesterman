@@ -19,7 +19,9 @@ van Telegram, waar veel meer dan 256 personen in kunnen zitten (zie foto).
 
 ![Whatsapp2](/Pictures/Foto2-whatsapp.jpeg)
 ![Whatsapp2](/Pictures/Foto3-whatsapp.jpeg)
-![Whatsapp2](/Pictures/Foto4-whatsapp.jpeg)
+
+Probleem 2
+![Whatsapp2](/Pictures/Foto2-whatsapp.jpeg)
 
 
 
