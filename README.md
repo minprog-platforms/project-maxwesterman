@@ -15,7 +15,7 @@ De volgende [afbeelding](/Pictures/Foto1-whatsapp.jpeg) toont hoe een bureaustoe
 Het initiatief loopt ook tegen enkele belemmeringen op, die in de gesprekken duidelijk naar voren komen. 
 Zo kent de groep een maximaal aantal gebruikers van 256 personen (WhatsApp restricties). Helaas is de vraag groter dan 
 het aantal beschikbare deelnemersplaatsen. Al enkele tijd worden er pogingen gedaan tot alternatieven, zoals het gebruik
-van Telegram, waar veel meer dan 256 personen in kunnen zitten (zie ![afbeelding](/Pictures/Foto2-whatsapp.jpeg) en ![afbeelding](/Pictures/Foto3-whatsapp.jpeg)).
+van Telegram, waar veel meer dan 256 personen in kunnen zitten (zie [afbeelding](/Pictures/Foto2-whatsapp.jpeg) en [afbeelding](/Pictures/Foto3-whatsapp.jpeg)).
 Ook wordt de functionaliteit van de huidige manier van communiceren via WhatsApp ingekaderd door de vormgeving van WhatsApp. Ook hier zijn enkele opmerkingen over gemaakt (zie [afbeelding](/Pictures/Foto2-whatsapp.jpeg)).
 
 
