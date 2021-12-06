@@ -9,7 +9,7 @@ enkele actieve buurtbewoners van de Amstelveense wijk Randwijck. Het doel van de
 om laagdrempelig goederen een tweede leven te bieden door ze gratis door te geven aan buurtbewoners. 
 De volgende afbeelding toont hoe een bureaustoel, een fiets en een speelgoed werkbank in de groep worden aangeboden.
 
-![WhatsApp1](/Pictures/Whatsapp.jpeg)
+![WhatsApp1](/Pictures/Foto1-whatsapp.jpeg)
 
 #### Beperkingen
 Het initiatief loopt ook tegen enkele belemmeringen op, die in de gesprekken duidelijk naar voren komen. 
@@ -17,9 +17,9 @@ Zo kent de groep een maximaal aantal gebruikers van 256 personen (WhatsApp restr
 het aantal beschikbare deelnemersplaatsen. Al enkele tijd worden er pogingen gedaan tot alternatieven, zoals het gebruik
 van Telegram, waar veel meer dan 256 personen in kunnen zitten (zie foto).
 
-![Whatsapp2](/Pictures/Whapsapp gesprek.png)
-![Whatsapp2](/Pictures/Whatsappgesprek 2.png)
-![Whatsapp2](/Pictures/Whatsappgesprek 3.png)
+![Whatsapp2](/Pictures/Foto2-whatsapp.jpeg)
+![Whatsapp2](/Pictures/Foto3-whatsapp.jpeg)
+![Whatsapp2](/Pictures/Foto4-whatsapp.jpeg)
 
 
 
