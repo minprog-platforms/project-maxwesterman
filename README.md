@@ -9,7 +9,7 @@ enkele actieve buurtbewoners van de Amstelveense wijk Randwijck. Het doel van de
 om laagdrempelig goederen een tweede leven te bieden door ze gratis door te geven aan buurtbewoners. 
 De volgende afbeelding toont hoe een bureaustoel, een fiets en een speelgoed werkbank in de groep worden aangeboden.
 
-![WhatsApp1](/Pictures/Foto1-whatsapp.jpeg)
+[WhatsApp1](/Pictures/Foto1-whatsapp.jpeg)
 
 #### Beperkingen
 Het initiatief loopt ook tegen enkele belemmeringen op, die in de gesprekken duidelijk naar voren komen. 
