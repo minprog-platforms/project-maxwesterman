@@ -8,7 +8,7 @@ Enkele jaren geleden is de buurt WhatsApp-groep 'Randwijck GEVEN & KRIJGEN' in h
 enkele actieve buurtbewoners van de Amstelveense wijk Randwijck. Het doel van deze WhatsApp-groep was (en is) 
 om laagdrempelig goederen een tweede leven te bieden door ze gratis aan te bieden aan buurtbewoners. 
 
-![WhatsApp](/Pictures/main/assets/images/Whatsapp.jpeg)
+![WhatsApp](/Pictures/Whatsapp.jpeg)
 
 #### Doel App
 Na enkele succesvolle jaren waarbij elke dag verschillende goederen een nieuw leven krijgen loopt het initiatief tegen enkele belemmeringen op.
