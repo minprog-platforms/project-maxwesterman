@@ -46,7 +46,7 @@ De app 'Geven en Krijgen' speelt hierop in. Door een duidelijke vormgeving, simp
 #### Toevoegen spel-element
 Momenteel wordt grotendeels de 'first come, first served' basis gebruikt, waarbij een buurtbewoner een goed aanbied, en de eerste die reageert kan hem ophalen. Om meer activiteit te stimuleren en het concept leuker te maken kan er nog een andere manier van verdeling van de goederen worden bedacht, namelijk: wie de meeste punten (wat in deze app 'zonnetjes' wordt genoemd) heeft opgebouwd maakt de meeste kans. Deze punten kunnen verzameld worden door goederen aan te bieden. Een klein goed is 1 punt, een gemiddeld goed 2 en een duur goed 3. Bij het opvragen van een goed kan er worden gefilterd op de persoon die de meeste punten heeft (en dus in het verleden de meeste goederen heeft aanboden), maar ook op degene die als eerste heeft gereageerd. Dit stimuleert het aanbieden van goederen en stimuleert het gebruik van het initiatief.
 
-### Vereisten
+#### Vereisten
 Zoals beschreven maakt de app gebruik van CloudKit. Dit heeft als nadeel dat gebruikers over een Apple ID moeten beschikken.
 Daarnaast moeten gebruikers toestemming geven voor het delen van foto's en enkele persoonlijke gegevens.
 
