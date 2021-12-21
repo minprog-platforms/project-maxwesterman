@@ -1,18 +1,18 @@
 //
-//  TabBar.swift
+//  ContentView.swift
 //  Geven en Krijgen
 //
 //  Created by Max Westerman on 07/12/2021.
 //
+//  Summery 'Geven en Krijgen' - ContentView
+//  The main content of the app is the tabbar which directs the user to the main pages:
+//  ProfileView, Goods overview and settings.
+//  Also there is a optional pre-made view if a new function should be added.
+//
 
 import SwiftUI
 
-// Generics
-// ViewBuilder
-// PreferenceKey
-// MatchedGeometryEffect
-
-struct AppTabBarView: View {
+struct ContentView: View {
     
     @State private var selection: String = "profiel"
     @State private var tabSelection: TabBarItem = .Profiel
@@ -22,18 +22,14 @@ struct AppTabBarView: View {
             ProfielView()
                 .tabBarItem(tab: .Profiel, selection: $tabSelection)
             
-            
             GevenEnKrijgenView()
                 .tabBarItem(tab: .GevenEnKrijgen, selection: $tabSelection)
 
-            
-//            VerkopenView()
-//                .tabBarItem(tab: .Verkopen, selection: $tabSelection)
-
-            
             InstellingenView()
                 .tabBarItem(tab: .Instellingen, selection: $tabSelection)
-
+            
+//            OptionalView()
+//                .tabBarItem(tab: .Verkopen, selection: $tabSelection)
         }
         
     }
@@ -41,7 +37,6 @@ struct AppTabBarView: View {
 
 struct TabBar_Previews: PreviewProvider {
     static var previews: some View {
-        AppTabBarView()
+        ContentView()
     }
 }
-

@@ -4,6 +4,12 @@
 //
 //  Created by Max Westerman on 07/12/2021.
 //
+//  Summary 'Geven en Krijgen' - Instellingen
+//  The 'Instellingen' View file is a preview of the possible settings and
+//  the design of the setting page. The functionality of this page is still
+//  limited, since none of the setting options work.
+//
+
 
 import SwiftUI
 
@@ -12,31 +18,26 @@ struct InstellingenView: View {
         
         NavigationView{
             Form {
-                Section(header: Text("Display"),
-                        footer: Text("uitleg... ... ... ... ...")) {
+                Section(header: Text("Verbindingen"),
+                        footer: Text("verbinding instellingen -- 1. 'online modus' - zet aan voor online activiteiten. -- 2. 'Gebruik systeem instellingen' - zet aan voor normaal gebruik.")) {
                     Toggle(isOn: .constant(true),
                            label: {
-                        Text("Dark mode")
+                        Text("Online modus")
                     })
                     
                     Toggle(isOn: .constant(true),
                            label: {
-                        Text("Use system settings")
+                        Text("Gebruik systeem instellingen")
                     })
                 }
                 
                 Section {
-                    Label("Follow me on twitter", systemImage: "link")
-
+                    Label("Druk hier voor uitnodigingslink!", systemImage: "link")
                 }
-                  
             }
             .navigationTitle("Instellingen")
-            
-            
+            .withDefaultBackgroundImage(opacity: 0.5)
         }
-        .withDefaultBackgroundImage(opacity: 0.5)
-
     }
 }
 

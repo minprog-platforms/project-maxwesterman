@@ -21,7 +21,7 @@ struct CustomTabBarView: View {
                     localSelection = value
                 }
             })
-    }
+    } 
 }
 
 struct CustomTabBarView_Previews: PreviewProvider {

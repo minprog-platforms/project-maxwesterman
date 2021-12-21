@@ -9,60 +9,52 @@
 /* Begin PBXBuildFile section */
 		501C6BF427626C0000A78598 /* BackGroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501C6BF327626C0000A78598 /* BackGroundImage.swift */; };
 		5079A00A276390E0000D1B48 /* CloudKitUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5079A009276390E0000D1B48 /* CloudKitUtility.swift */; };
-		5079A00E2763A29E000D1B48 /* CloudKitCrud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5079A00D2763A29E000D1B48 /* CloudKitCrud.swift */; };
 		5079A0102763C7DD000D1B48 /* CloudKitCrudExtraFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5079A00F2763C7DC000D1B48 /* CloudKitCrudExtraFile.swift */; };
-		5079A01C2768BC75000D1B48 /* TijdelijkOpslaan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5079A01B2768BC75000D1B48 /* TijdelijkOpslaan.swift */; };
 		50BDD3E9275E430000970FA3 /* Geven_en_KrijgenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BDD3E8275E430000970FA3 /* Geven_en_KrijgenApp.swift */; };
-		50BDD3EB275E430000970FA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BDD3EA275E430000970FA3 /* ContentView.swift */; };
 		50BDD3ED275E430200970FA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50BDD3EC275E430200970FA3 /* Assets.xcassets */; };
 		50BDD3F0275E430200970FA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50BDD3EF275E430200970FA3 /* Preview Assets.xcassets */; };
 		50BDD3F2275E430200970FA3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BDD3F1275E430200970FA3 /* Persistence.swift */; };
 		50BDD3F5275E430200970FA3 /* Geven_en_Krijgen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50BDD3F3275E430200970FA3 /* Geven_en_Krijgen.xcdatamodeld */; };
-		50BDD3FD275F709400970FA3 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BDD3FC275F709400970FA3 /* TabBar.swift */; };
+		50BDD3FD275F709400970FA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BDD3FC275F709400970FA3 /* ContentView.swift */; };
 		50BDD401275F717F00970FA3 /* Profiel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BDD400275F717F00970FA3 /* Profiel.swift */; };
 		50BDD403275F718F00970FA3 /* GevenEnKrijgen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BDD402275F718F00970FA3 /* GevenEnKrijgen.swift */; };
-		50BDD406275F71A600970FA3 /* Verkopen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BDD405275F71A600970FA3 /* Verkopen.swift */; };
+		50BDD406275F71A600970FA3 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BDD405275F71A600970FA3 /* Optional.swift */; };
 		50BDD408275F71AE00970FA3 /* Instellingen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BDD407275F71AE00970FA3 /* Instellingen.swift */; };
 		50BDD40A275F753500970FA3 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BDD409275F753500970FA3 /* CustomTabBarView.swift */; };
 		50BDD40C275F7A6C00970FA3 /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BDD40B275F7A6C00970FA3 /* CustomTabBarContainerView.swift */; };
 		50BDD40E275F7F6400970FA3 /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BDD40D275F7F6400970FA3 /* TabBarItemsPreferenceKey.swift */; };
 		50BDD410275F82B700970FA3 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BDD40F275F82B700970FA3 /* TabBarItem.swift */; };
 		50BDD41D2760CC0200970FA3 /* PlaatsAdvertentieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BDD41C2760CC0200970FA3 /* PlaatsAdvertentieView.swift */; };
-		50BDD41F2761542600970FA3 /* Advertentie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BDD41E2761542600970FA3 /* Advertentie.swift */; };
 		50BDD423276209E800970FA3 /* CloudKitUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BDD422276209E700970FA3 /* CloudKitUser.swift */; };
 		50BDD42727620ABC00970FA3 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BDD42627620ABB00970FA3 /* CloudKit.framework */; };
-		50EFEE57276A2272005ED509 /* ZonnetjesCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EFEE56276A2272005ED509 /* ZonnetjesCount.swift */; };
+		50C089E727721F3400C6B7B1 /* CodeReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C089E627721F3400C6B7B1 /* CodeReview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		501C6BF327626C0000A78598 /* BackGroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGroundImage.swift; sourceTree = "<group>"; };
 		5079A009276390E0000D1B48 /* CloudKitUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitUtility.swift; sourceTree = "<group>"; };
-		5079A00D2763A29E000D1B48 /* CloudKitCrud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitCrud.swift; sourceTree = "<group>"; };
 		5079A00F2763C7DC000D1B48 /* CloudKitCrudExtraFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitCrudExtraFile.swift; sourceTree = "<group>"; };
 		5079A019276787EA000D1B48 /* Geven-en-Krijgen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Geven-en-Krijgen-Info.plist"; sourceTree = SOURCE_ROOT; };
-		5079A01B2768BC75000D1B48 /* TijdelijkOpslaan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TijdelijkOpslaan.swift; sourceTree = "<group>"; };
 		50BDD3E5275E430000970FA3 /* Geven en Krijgen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geven en Krijgen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50BDD3E8275E430000970FA3 /* Geven_en_KrijgenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geven_en_KrijgenApp.swift; sourceTree = "<group>"; };
-		50BDD3EA275E430000970FA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		50BDD3EC275E430200970FA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50BDD3EF275E430200970FA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		50BDD3F1275E430200970FA3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		50BDD3F4275E430200970FA3 /* Geven_en_Krijgen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Geven_en_Krijgen.xcdatamodel; sourceTree = "<group>"; };
-		50BDD3FC275F709400970FA3 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		50BDD3FC275F709400970FA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../Tab/ContentView.swift; sourceTree = "<group>"; };
 		50BDD400275F717F00970FA3 /* Profiel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profiel.swift; sourceTree = "<group>"; };
 		50BDD402275F718F00970FA3 /* GevenEnKrijgen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GevenEnKrijgen.swift; sourceTree = "<group>"; };
-		50BDD405275F71A600970FA3 /* Verkopen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verkopen.swift; sourceTree = "<group>"; };
+		50BDD405275F71A600970FA3 /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
 		50BDD407275F71AE00970FA3 /* Instellingen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instellingen.swift; sourceTree = "<group>"; };
 		50BDD409275F753500970FA3 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		50BDD40B275F7A6C00970FA3 /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
 		50BDD40D275F7F6400970FA3 /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
 		50BDD40F275F82B700970FA3 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 		50BDD41C2760CC0200970FA3 /* PlaatsAdvertentieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaatsAdvertentieView.swift; sourceTree = "<group>"; };
-		50BDD41E2761542600970FA3 /* Advertentie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advertentie.swift; sourceTree = "<group>"; };
 		50BDD422276209E700970FA3 /* CloudKitUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitUser.swift; sourceTree = "<group>"; };
 		50BDD42427620A8700970FA3 /* Geven en Krijgen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Geven en Krijgen.entitlements"; sourceTree = "<group>"; };
 		50BDD42627620ABB00970FA3 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
-		50EFEE56276A2272005ED509 /* ZonnetjesCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZonnetjesCount.swift; sourceTree = "<group>"; };
+		50C089E627721F3400C6B7B1 /* CodeReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeReview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,30 +73,20 @@
 			isa = PBXGroup;
 			children = (
 				501C6BF327626C0000A78598 /* BackGroundImage.swift */,
-				50EFEE56276A2272005ED509 /* ZonnetjesCount.swift */,
 			);
 			path = ExtraFiles;
-			sourceTree = "<group>";
-		};
-		5079A01A2768B047000D1B48 /* PlaatsAdvertentieGroep */ = {
-			isa = PBXGroup;
-			children = (
-				50BDD41C2760CC0200970FA3 /* PlaatsAdvertentieView.swift */,
-				5079A01B2768BC75000D1B48 /* TijdelijkOpslaan.swift */,
-			);
-			path = PlaatsAdvertentieGroep;
 			sourceTree = "<group>";
 		};
 		50BDD3DC275E430000970FA3 = {
 			isa = PBXGroup;
 			children = (
+				50BDD3E7275E430000970FA3 /* Geven en Krijgen */,
+				50BDD3FE275F715B00970FA3 /* MainPages */,
 				501C6BEB2762694300A78598 /* ExtraFiles */,
 				50BDD420276209C800970FA3 /* CloudKit */,
-				50BDD3FE275F715B00970FA3 /* MainPages */,
-				50BDD3FB275F706400970FA3 /* Tab */,
-				50BDD3E7275E430000970FA3 /* Geven en Krijgen */,
-				50BDD3E6275E430000970FA3 /* Products */,
 				50BDD42527620ABB00970FA3 /* Frameworks */,
+				50BDD3FB275F706400970FA3 /* Tab */,
+				50BDD3E6275E430000970FA3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,11 +104,12 @@
 				5079A019276787EA000D1B48 /* Geven-en-Krijgen-Info.plist */,
 				50BDD42427620A8700970FA3 /* Geven en Krijgen.entitlements */,
 				50BDD3E8275E430000970FA3 /* Geven_en_KrijgenApp.swift */,
-				50BDD3EA275E430000970FA3 /* ContentView.swift */,
+				50BDD3FC275F709400970FA3 /* ContentView.swift */,
 				50BDD3EC275E430200970FA3 /* Assets.xcassets */,
 				50BDD3F1275E430200970FA3 /* Persistence.swift */,
 				50BDD3F3275E430200970FA3 /* Geven_en_Krijgen.xcdatamodeld */,
 				50BDD3EE275E430200970FA3 /* Preview Content */,
+				50C089E627721F3400C6B7B1 /* CodeReview.swift */,
 			);
 			path = "Geven en Krijgen";
 			sourceTree = "<group>";
@@ -142,7 +125,6 @@
 		50BDD3FB275F706400970FA3 /* Tab */ = {
 			isa = PBXGroup;
 			children = (
-				50BDD3FC275F709400970FA3 /* TabBar.swift */,
 				50BDD409275F753500970FA3 /* CustomTabBarView.swift */,
 				50BDD40B275F7A6C00970FA3 /* CustomTabBarContainerView.swift */,
 				50BDD40D275F7F6400970FA3 /* TabBarItemsPreferenceKey.swift */,
@@ -154,11 +136,10 @@
 		50BDD3FE275F715B00970FA3 /* MainPages */ = {
 			isa = PBXGroup;
 			children = (
-				5079A01A2768B047000D1B48 /* PlaatsAdvertentieGroep */,
 				50BDD400275F717F00970FA3 /* Profiel.swift */,
-				50BDD41E2761542600970FA3 /* Advertentie.swift */,
+				50BDD41C2760CC0200970FA3 /* PlaatsAdvertentieView.swift */,
 				50BDD402275F718F00970FA3 /* GevenEnKrijgen.swift */,
-				50BDD405275F71A600970FA3 /* Verkopen.swift */,
+				50BDD405275F71A600970FA3 /* Optional.swift */,
 				50BDD407275F71AE00970FA3 /* Instellingen.swift */,
 			);
 			path = MainPages;
@@ -169,7 +150,6 @@
 			children = (
 				50BDD422276209E700970FA3 /* CloudKitUser.swift */,
 				5079A009276390E0000D1B48 /* CloudKitUtility.swift */,
-				5079A00D2763A29E000D1B48 /* CloudKitCrud.swift */,
 				5079A00F2763C7DC000D1B48 /* CloudKitCrudExtraFile.swift */,
 			);
 			path = CloudKit;
@@ -255,20 +235,16 @@
 			files = (
 				50BDD3F2275E430200970FA3 /* Persistence.swift in Sources */,
 				50BDD40A275F753500970FA3 /* CustomTabBarView.swift in Sources */,
-				5079A00E2763A29E000D1B48 /* CloudKitCrud.swift in Sources */,
 				50BDD40C275F7A6C00970FA3 /* CustomTabBarContainerView.swift in Sources */,
-				5079A01C2768BC75000D1B48 /* TijdelijkOpslaan.swift in Sources */,
 				50BDD40E275F7F6400970FA3 /* TabBarItemsPreferenceKey.swift in Sources */,
-				50EFEE57276A2272005ED509 /* ZonnetjesCount.swift in Sources */,
+				50C089E727721F3400C6B7B1 /* CodeReview.swift in Sources */,
 				50BDD3F5275E430200970FA3 /* Geven_en_Krijgen.xcdatamodeld in Sources */,
-				50BDD3EB275E430000970FA3 /* ContentView.swift in Sources */,
-				50BDD406275F71A600970FA3 /* Verkopen.swift in Sources */,
+				50BDD406275F71A600970FA3 /* Optional.swift in Sources */,
 				50BDD403275F718F00970FA3 /* GevenEnKrijgen.swift in Sources */,
 				50BDD3E9275E430000970FA3 /* Geven_en_KrijgenApp.swift in Sources */,
-				50BDD41F2761542600970FA3 /* Advertentie.swift in Sources */,
 				50BDD410275F82B700970FA3 /* TabBarItem.swift in Sources */,
 				50BDD423276209E800970FA3 /* CloudKitUser.swift in Sources */,
-				50BDD3FD275F709400970FA3 /* TabBar.swift in Sources */,
+				50BDD3FD275F709400970FA3 /* ContentView.swift in Sources */,
 				5079A00A276390E0000D1B48 /* CloudKitUtility.swift in Sources */,
 				5079A0102763C7DD000D1B48 /* CloudKitCrudExtraFile.swift in Sources */,
 				50BDD401275F717F00970FA3 /* Profiel.swift in Sources */,
