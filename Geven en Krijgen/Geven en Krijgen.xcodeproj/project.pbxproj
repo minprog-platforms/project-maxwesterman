@@ -27,7 +27,6 @@
 		50BDD41D2760CC0200970FA3 /* PlaatsAdvertentieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BDD41C2760CC0200970FA3 /* PlaatsAdvertentieView.swift */; };
 		50BDD423276209E800970FA3 /* CloudKitUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BDD422276209E700970FA3 /* CloudKitUser.swift */; };
 		50BDD42727620ABC00970FA3 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BDD42627620ABB00970FA3 /* CloudKit.framework */; };
-		50C089E727721F3400C6B7B1 /* CodeReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C089E627721F3400C6B7B1 /* CodeReview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,7 +53,6 @@
 		50BDD422276209E700970FA3 /* CloudKitUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitUser.swift; sourceTree = "<group>"; };
 		50BDD42427620A8700970FA3 /* Geven en Krijgen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Geven en Krijgen.entitlements"; sourceTree = "<group>"; };
 		50BDD42627620ABB00970FA3 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
-		50C089E627721F3400C6B7B1 /* CodeReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeReview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +107,6 @@
 				50BDD3F1275E430200970FA3 /* Persistence.swift */,
 				50BDD3F3275E430200970FA3 /* Geven_en_Krijgen.xcdatamodeld */,
 				50BDD3EE275E430200970FA3 /* Preview Content */,
-				50C089E627721F3400C6B7B1 /* CodeReview.swift */,
 			);
 			path = "Geven en Krijgen";
 			sourceTree = "<group>";
@@ -237,7 +234,6 @@
 				50BDD40A275F753500970FA3 /* CustomTabBarView.swift in Sources */,
 				50BDD40C275F7A6C00970FA3 /* CustomTabBarContainerView.swift in Sources */,
 				50BDD40E275F7F6400970FA3 /* TabBarItemsPreferenceKey.swift in Sources */,
-				50C089E727721F3400C6B7B1 /* CodeReview.swift in Sources */,
 				50BDD3F5275E430200970FA3 /* Geven_en_Krijgen.xcdatamodeld in Sources */,
 				50BDD406275F71A600970FA3 /* Optional.swift in Sources */,
 				50BDD403275F718F00970FA3 /* GevenEnKrijgen.swift in Sources */,

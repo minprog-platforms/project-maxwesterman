@@ -8,15 +8,6 @@
 import Foundation
 import SwiftUI
 
-//struct TabBarItem: Hashable {
-//    let iconName: String
-//    let title: String
-//    let color: Color
-//
-//
-//}
-
-
 enum TabBarItem: Hashable {
     case Profiel, GevenEnKrijgen, Verkopen, Instellingen
     

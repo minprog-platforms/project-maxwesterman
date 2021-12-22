@@ -12,52 +12,63 @@
 //
 
 import SwiftUI
-
 struct ProfielView: View {
     
+    @StateObject private var vm = CloudKitUserViewModel()
+    
     @State var zonnetjes: Int = 700
-    @State var name: String = "Max Westerman"
     @State var area: String = "Randwijck"
+    
+    
     
     var body: some View {
         NavigationView {
-            VStack {
+            if vm.isSignedInToiCloud == false {
                 VStack {
-                    HeadProfile(zonnetjes: zonnetjes)
-                        .padding(30)
-                    
-                    Text(name)
-                        .font(.title)
-                        .bold()
-                }
                 
-                VStack(alignment: .leading, spacing: 12) {
-                    HStack{
-                        Image(systemName: "location.circle")
-                        Text("Buurt: \(area)")
+                    Text("Sign in to your Iphone")
+                }
+            } else {
+                VStack {
+                    VStack {
+                        HeadProfile(zonnetjes: zonnetjes)
+                        .padding(30)
+            
+                        Text("\(vm.userName)")
+                            .font(.title)
+                            .bold()
                     }
                     
-                    HStack{
-                        Image(systemName: "sun.max.fill")
-                        Text("Zonnetjes: \(zonnetjes)")
+                    VStack(alignment: .leading, spacing: 12) {
+                        HStack{
+                            Image(systemName: "location.circle")
+                            Text("Buurt: \(area)")
+                        }
+                        
+                        HStack{
+                            Image(systemName: "sun.max.fill")
+                            Text("Zonnetjes: \(zonnetjes)")
+                        }
                     }
+                    .padding()
+                
+                    NavigationLink(destination: PlaatsAdvertentie()) {
+                        Text("Plaats advertentie \(Image(systemName: "sun.max.fill"))")
+                            .bold()
+                            .frame(width: 260, height: 50)
+                            .background(Color.red)
+                            .foregroundColor(.white)
+                            .cornerRadius(12)
+                    }
+                    .padding(30)
+                    Spacer()
                 }
-                .padding()
-            
-                NavigationLink(destination: PlaatsAdvertentie()) {
-                    Text("Plaats advertentie \(Image(systemName: "sun.max.fill"))")
-                        .bold()
-                        .frame(width: 260, height: 50)
-                        .background(Color.red)
-                        .foregroundColor(.white)
-                        .cornerRadius(12)
-                }
-                .padding(30)
-                Spacer()
+                .padding(20)
+                // backgroundimage from file 'ExtraFiles/BackGroundImage'
+                .withDefaultBackgroundImage(opacity: 0.3)
+                
             }
-            .padding(20)
-            // backgroundimage from file 'ExtraFiles/BackGroundImage'
-            .withDefaultBackgroundImage(opacity: 0.3)
+            
         }
     }
 }

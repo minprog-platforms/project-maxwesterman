@@ -12,6 +12,7 @@ struct Geven_en_KrijgenApp: App {
 
     var body: some Scene {
         WindowGroup {
+//            CloudKitUser()
             ContentView()
         }
     }

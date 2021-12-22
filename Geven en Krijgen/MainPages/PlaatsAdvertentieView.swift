@@ -373,17 +373,20 @@ struct CustomPicker: View {
     let req = PHAsset.fetchAssets(with: .image, options: .none)
     DispatchQueue.global(qos: .background).async {
         req.enumerateObjects{ (asset, _, _) in
+            
             let options = PHImageRequestOptions()
             options.isSynchronous = true
+            
             PHCachingImageManager.default().requestImage(for: asset, targetSize: .init(), contentMode: .default, options: options) { (image, _) in
-          
-                let data1 = Images(image: image!, selected: false)
+                
+                let data1 = Images(image: image ?? UIImage(), selected: false)
                 self.data.append(data1)
             }
+            
         }
         
         if req.count == self.data.count {
-            self.getGrid()
+            self.getGrid( )
         }
     }
 }
