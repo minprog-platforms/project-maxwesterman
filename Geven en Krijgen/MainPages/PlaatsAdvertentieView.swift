@@ -385,6 +385,7 @@ struct CustomPicker: View {
             
         }
         
+        
         if req.count == self.data.count {
             self.getGrid( )
         }
