@@ -53,3 +53,5 @@ Daarnaast moeten gebruikers toestemming geven voor het delen van foto's en enkel
 #### Nadelen 
 Niet alle hierboven geschreven functies werken optimaal. Het is mogelijk om als gebruiker in te loggen, vervolgens enkele foto's (max. 10) gecombineerd met een korte en lange beschrijving te plaatsen, en deze terug te zien in de lijst met goederen in het tabblad 'Geven Krijgen'. Helaas is er wegens tijdgebrek nog geen vervolgsscherm op de verschillende advertenties waar gebruikers op kunnen reageren. Ook is de informatie op de profiel view (profielfoto, naam, buurt en zonnetjes) nog niet gekoppeld aan een persoonlijk ID. Het is nu nog gehardcode. Wel geeft het een goed beeld van de uiteindelijke vormgeving. Ook het tabblad instellingen is niet uitgewerkt wegens tijdgebrek.
 
+[Link naar video](https://youtu.be/tkyx4iIcBQo)
+
