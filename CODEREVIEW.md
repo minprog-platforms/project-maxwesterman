@@ -19,3 +19,18 @@ Reactie: De intekst opmerkingen kunnen veel uitgebreider. Dat is nu nog erg kari
 
 - De CloudKit functionaliteit is voor een leek nu nog erg vaag. Er gebeurt veel en er worden weinig opmerkingen in de tekst beschreven.
 Reactie: Ook daar kan ik nog veel beschrijvender worden in de opmerkingen wat er waar gebeurt.
+
+
+#### Code Reviewer: Marc Vlasblom
+
+- In je code voor CloudKit snap ik niet echt wat je doet omdat er niet echt comentaar
+ bij zet
+- Je gebruikt Nederlands en Engels door elkaar
+- je zou wat meer witregels kunnen gebruiken (bijvoorbeeld in het eerste deel van de geven en krijgen)
+- Over wit regels gesproken de plaatsen waar je die zet zijn een beetje inconsistent
+- je zou je views wat meer kunnen opsplitsen in meerde files en die dan later met een zstack over elkaar heen kunnen plakken nu is plaatsAdvertentie heel lang
+iets meer commentaar Maar verder ziet het er prima uit
+
+Reactie: de review komt redelijk overeen met de review van Joep, daarom ga ik niet alles herhalen. Wel ben ik het er mee eens dat ik beter om had kunnen gaan met de witregels. Dit is voor het vervolg een verbeterstap die ik zal moeten maken.
+
+
